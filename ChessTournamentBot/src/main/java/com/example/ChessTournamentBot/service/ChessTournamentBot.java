@@ -90,30 +90,4 @@ public class ChessTournamentBot extends TelegramWebhookBot {
         }
     }
 
-
-/**
- * Version for LongPolling model
- *
-//    public void onUpdateReceived(Update update) {
-//        if(update.hasMessage() && update.getMessage().hasText()) {
-//            long chatId = update.getMessage().getChatId();
-//            if (lastId == chatId && lastCommand.equals(update.getMessage().getText())){
-//                return;
-//            }else {
-//                lastId = chatId;
-//                lastCommand = update.getMessage().getText();
-//            }
-//            if (!update.getMessage().getChat().getType().equals("private")){
-//                if ( update.getMessage().getText().contains("@tournament_chess_bot") ||
-//                update.getMessage().getText().contains("/set_new_player") || update.getMessage().getText().contains("/update_player_info")) {
-//
-//                        analiseRU(Parser.parseCommand(update.getMessage().getText()), update.getMessage().getFrom().getUserName(), chatId, update.getMessage().getFrom().getFirstName(), update.getMessage().getMessageId());
-//            }} else{
-//
-//                    analiseRU(Parser.parseCommand(update.getMessage().getText()), update.getMessage().getFrom().getUserName(), chatId, update.getMessage().getFrom().getFirstName(), update.getMessage().getMessageId());
-//            }
-//        }
-//    }
-*/
-
 }
