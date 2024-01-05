@@ -32,21 +32,3 @@ public class WebhookConfig {
     }
 }
 
-/**
- * @deprecated
- * Version for LongPolling model
-
-    @Autowired
-    ChessTournamentBot bot;
-
-    @EventListener({ContextRefreshedEvent.class})
-    public void initBot() {
-        try {
-            TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
-            telegramBotsApi.registerBot(bot);
-        }catch (TelegramApiException e){
-           log.error(e.getMessage());
-        }
-    }
-}*/
-
