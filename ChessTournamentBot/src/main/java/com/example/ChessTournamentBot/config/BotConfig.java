@@ -13,9 +13,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class BotConfig {
 
-//    @Value("${bot.path}")
-//    String path;
-
     @Value("${bot.username}")
     String username;
 
