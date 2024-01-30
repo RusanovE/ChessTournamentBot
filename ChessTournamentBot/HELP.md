@@ -50,6 +50,8 @@ This Telegram bot facilitates registration and management of chess tournaments. 
 
 Feel free to explore and enjoy the chess tournament registration bot! If you have any questions or encounter issues, use the `/help` command to get assistance.
 
+The bot was available when I had my own server under the username @tournament_chess_bot. Now, the bot is usually inactive, or I run it locally on my machine.
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
