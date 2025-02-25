@@ -71,7 +71,8 @@ public class ChessTournamentBot extends TelegramLongPollingBot {
     @Override
     public void onUpdateReceived(Update update) {
         try {
-            if (update.getMessage().getText().equalsIgnoreCase("Серега сыграй") || update.getMessage().getText().equalsIgnoreCase("Серёга сыграй")) {
+            String text = update.getMessage().getText();
+            if (text.equalsIgnoreCase("Серега сыграй") || text.equalsIgnoreCase("Серёга сыграй")) {
                 execute(messageHandler.sendSeregaMusic(update.getMessage().getChatId(), update.getMessage().getMessageId()));
 
             } else if (update.getMessage().getText().contains("/get_target_file")){
